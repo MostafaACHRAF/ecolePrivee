@@ -1,0 +1,7 @@
+#backgroundStack {
+    -fx-background-image: url("4499957-wallpapers-hd-1080p.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1200 620;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="447.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.AuthentificationController">
+   <children>
+      <StackPane fx:id="backgroundStack" prefHeight="303.0" prefWidth="447.0" stylesheets="@CSS/authentificationCss.css" />
+      <PasswordField fx:id="textField_password" layoutX="111.0" layoutY="131.0" prefHeight="39.0" prefWidth="225.0" promptText="Password" />
+      <TextField fx:id="textField_username" layoutX="111.0" layoutY="58.0" prefHeight="39.0" prefWidth="225.0" promptText="User name" />
+      <ToggleButton fx:id="btn_connecter" layoutX="46.0" layoutY="223.0" mnemonicParsing="false" onAction="#authentification" prefHeight="39.0" prefWidth="130.0" style="-fx-background-color: #00bfa5;" text="Se connecter" textFill="#fcfcfc">
+         <font>
+            <Font size="15.0" />
+         </font></ToggleButton>
+      <ToggleButton fx:id="btn_annular" layoutX="269.0" layoutY="223.0" mnemonicParsing="false" onAction="#authentification" prefHeight="39.0" prefWidth="130.0" style="-fx-background-color: #f06292;" text="Annuler" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></ToggleButton>
+      <Label fx:id="label" layoutX="50.0" layoutY="14.0" prefHeight="25.0" prefWidth="284.0" textFill="#f50057" />
+   </children>
+</AnchorPane>
